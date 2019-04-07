@@ -1,4 +1,4 @@
-class ActioncableAppSchema < GraphQL::Schema
+class TodosGraphqlApiSchema < GraphQL::Schema
   mutation(Types::MutationType)
   query(Types::QueryType)
 end
